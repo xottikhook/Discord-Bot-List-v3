@@ -22,8 +22,8 @@ module.exports = {
 
     website: {
         port: port,
-        url: 'https://logviewer-4.drmizayt.repl.co', // default url
-        callback: 'https://logviewer-4.drmizayt.repl.co/callback', // default callback url
+        url: 'https://xottikhook.github.io', // default url
+        callback: 'https://xottikhook.github.io/callback', // default callback url
 
         // testingURL: 'http://localhost:' + port, // default testing url
         // testingCallback: 'http://localhost:' + port + '/callback', // default testing callback url
