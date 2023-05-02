@@ -2,28 +2,28 @@ const port = 4777;
 
 module.exports = {
     client: {
-        id: '857185961280929813',
-        token: '',
-        secret: '',
+        id: '1099079120115204147',
+        token: 'MTA5OTA3OTEyMDExNTIwNDE0Nw.GoYkT8.VPzP7nYmjJjwU-OLURGx54TN4vnvxvCuvsoOSU',
+        secret: 'nu6NwMSlLUVRpLb8dPVcw73ug2J-aSnE',
         prefix: 'a!',
-        owners: ["857177733398265876", "594638372996251655"],
+        owners: ["809157408424722463"],
     },
 
     serverClient: {
-        id: '860206392652595281',
+        id: '1099079120115204147',
         prefix: 's!',
-        token: '',
-        invite: 'https://discord.com/oauth2/authorize?client_id=860206392652595281&scope=bot%20identify&permissions=19473'
+        token: 'MTA5OTA3OTEyMDExNTIwNDE0Nw.GoYkT8.VPzP7nYmjJjwU-OLURGx54TN4vnvxvCuvsoOSU',
+        invite: 'https://discord.com/oauth2/authorize?client_id=1099079120115204147&scope=bot%20identify&permissions=19473'
     },
 
     database: {
-        url: '', // Mongo url
+        url: 'mongodb+srv://rlboostingxottik:System1153.@cluster0.qvgm35h.mongodb.net/?retryWrites=true&w=majority', // Mongo url
     },
 
     website: {
         port: port,
-        url: 'https://astrabots.xyz', // default url
-        callback: 'https://astrabots.xyz/callback', // default callback url
+        url: 'https://logviewer-4.drmizayt.repl.co', // default url
+        callback: 'https://logviewer-4.drmizayt.repl.co/callback', // default callback url
 
         // testingURL: 'http://localhost:' + port, // default testing url
         // testingCallback: 'http://localhost:' + port + '/callback', // default testing callback url
@@ -94,17 +94,17 @@ module.exports = {
 
     server: {
         // Server ID
-        id: '793149744847257600',
+        id: '1095074947644280934',
 
         // Channel IDs
         channels: {
-            errors: '1023887120533823519', // Sends errors to this channel
-            login: '850254765941325835', // Sends login logs to this channel (member login)
-            botlogs: '850303116393185290', // Bot Add, Remove, Approve, Deny, Edit
-            votes: '', // Bot votes channel
-            serverlogs: '', // Server Add, Remove, Approve, Deny, Edit
-            welcome: '804721971593478164', // welcome logs channel Member/Bot join & leave logs
-            schedules: '1025000823790501949', // New schedule logs channel
+            errors: '1102878239279550565', // Sends errors to this channel
+            login: '1102878239279550565', // Sends login logs to this channel (member login)
+            botlogs: '1102878239279550565', // Bot Add, Remove, Approve, Deny, Edit
+            votes: '1102878239279550565', // Bot votes channel
+            serverlogs: '1102878239279550565', // Server Add, Remove, Approve, Deny, Edit
+            welcome: '1102878239279550565', // welcome logs channel Member/Bot join & leave logs
+            schedules: '1102878239279550565', // New schedule logs channel
 
             voiceChannelStatistics: '', // Voice channel statistics channel "Website Visitors: 1365"
         },
